@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+
+.guysPic {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

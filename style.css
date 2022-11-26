@@ -35,8 +35,22 @@ p, .lists-style {
     font-size: 18px;
 }
 
-h2, nav {
+footer {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+footer a {
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 20px;
+    display: block;
+}
+
+h2, nav, footer {
     color: white;
     background-color: #032C16;
 }
-

@@ -13,11 +13,20 @@ h1 {
 .guysPic {
     width: 200px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px;
     display: block;
+    float: left;
 }
 
-p, .lists-style, a {
+a {
+    text-decoration: none;
+    line-height: 20px;
+    color: white;
+    display: inline;
+    margin-left: 20px;
+}
+
+p, .lists-style {
     line-height: 20px;
     color: #116D17;
 }
@@ -26,7 +35,8 @@ p, .lists-style, a {
     font-size: 18px;
 }
 
-h2 {
+h2, nav {
     color: white;
     background-color: #032C16;
 }
+

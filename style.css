@@ -64,6 +64,10 @@ p,
     font-size: 18px;
   }
 
+ul:hover {
+    font-weight: bold;
+}
+
 a {
   text-decoration: none;
   line-height: 30px;

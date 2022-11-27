@@ -46,7 +46,8 @@ h2 {
   margin-right: 25px;
   float: left;
   border-radius: 10px;
-  border: 4px solid #116d17;
+  padding: 4px;
+  background-color: #116d17;
 }
 
 p {

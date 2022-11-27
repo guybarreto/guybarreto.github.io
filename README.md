@@ -4,4 +4,4 @@ Utilizarei este repositório para elaborar um portfólio ao longo do meu aprendi
 - [x] Estrutura HTML
 - [x] Estilização CSS
 
-[GitHub Pages](guybarreto.github.io)
+[GitHub Pages](https://guybarreto.github.io)

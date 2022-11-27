@@ -4,38 +4,49 @@ body {
   background-color: #fafafa;
 }
 
+h2,
+nav,
+footer {
+  color: white;
+  background-color: #032c16;
+}
+
 h1 {
   font-family: Arial;
   color: #e1f2d5;
   background-color: #032c16;
   display: table;
-  padding: 0px 10px;
+  padding: 10px;
+  border-radius: 10px;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  background-color: aquamarine;
+h2 {
+    padding: 5px;
+    border-radius: 10px;
 }
 
-#articleSettings {
+#section-1, #section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+#aboutMeArticle, #section-2 article {
   width: 610px;
-  background-color: khaki;
 }
 
 h2 {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
-.guysPic {
+.profilePic {
   width: 220px;
   margin-right: 25px;
   float: left;
-  border-radius: 5%;
-  border: 4px solid #032c16;
+  border-radius: 10px;
+  border: 4px solid #116d17;
 }
 
 p {
@@ -43,20 +54,21 @@ p {
   line-height: 20px;
 }
 
+p,
+.lists-style {
+  color: #116d17;
+}
+
+.lists-style {
+    font-size: 18px;
+  }
+
 a {
   text-decoration: none;
   line-height: 30px;
   color: white;
   display: inline;
   margin-left: 20px;
-}
-
-p, .lists-style {
-  color: #116d17;
-}
-
-.lists-style {
-  font-size: 18px;
 }
 
 footer {
@@ -72,11 +84,4 @@ footer a {
   font-weight: normal;
   padding-top: 20px;
   display: block;
-}
-
-h2,
-nav,
-footer {
-  color: white;
-  background-color: #032c16;
 }
